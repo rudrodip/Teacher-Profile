@@ -6,7 +6,6 @@
 @layer base {
     html {
       background-color: #20252E !important;
-      color: white !important;
       font-family: 'Raleway', sans-serif;
       font-family: 'Ubuntu', sans-serif;
       overflow-x: hidden;
