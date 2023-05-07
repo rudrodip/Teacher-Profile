@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@300&display=swap');
+
+@layer base {
+    html {
+      background-color: #20252E !important;
+      color: white !important;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+      overflow-x: hidden;
+    }
+  }
+
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: transparent;
+  margin-block: 0.5rem;
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(blue, cyan);
+  border-radius: 25vw;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(#8EEDF7, cyan);
+}
+
+.category::-webkit-scrollbar{
+  width: 0.35rem;
+}
+
+.category::-webkit-scrollbar-track{
+  background: transparent;
+  margin-block: 0.5rem;
+  border-radius: 100vw;
+}
+
+.category::-webkit-scrollbar-thumb{
+  background: linear-gradient(blue, rgb(0, 140, 255));
+  border-radius: 25vw;
+}
