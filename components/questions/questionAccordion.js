@@ -70,7 +70,7 @@ const Question = ({ quesData, id }) => {
         <p className='text-sm'>Date: {quesData?.time?.toDate()?.toDateString()}</p>
         {quesData?.ques_file ? <img className='h-auto rounded-sm' src={quesData.ques_file} /> : ''}
         <span className='divider'></span>
-        <p className='text-md text-gray-300'>{quesData?.ans ? `Answer: ${quesData.ans.text}` : ''}</p>
+        <p className='text-md dark:text-gray-300'>{quesData?.ans ? `Answer: ${quesData.ans.text}` : ''}</p>
         {quesData?.ans ? '' : <Link className='btn btn-info' href={`/solve/${id}`}>Solve</Link>}
         <br></br>
         <div className='flex justify-center items-center'>
